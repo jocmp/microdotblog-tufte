@@ -62,7 +62,7 @@ body {
 	margin-bottom: 1.2rem;
 	margin-top: 3rem;
 }
-	
+
 p.subtitle {
 	font-style: italic;
 	margin-top: 1rem;
@@ -247,14 +247,13 @@ img {
 	height: auto;
 	margin: 2em 0;
 	border-radius: 5px;
-	box-shadow: 0 0 10px 0 darkgray;
 }
 
 video, audio {
 	display: flex;
 	height: auto;
 	max-width: 55%;
-} 
+}
 
 
 /* Newthought element styling
@@ -455,7 +454,7 @@ figcaption {
 figure.fullwidth figcaption {
 	margin-right: 0%;
 }
-	
+
 
 .sidenote,
 .marginnote {
@@ -558,7 +557,7 @@ table.post-stats-tbl:last-of-type {
 a.categorycloud-item {
 	margin-right: 1em;
 	background: none;
-} 
+}
 
 /* Code sections */
 
@@ -636,7 +635,7 @@ p.bookshelf_book a img {
 	position: relative;
 	top: -15px;
 	padding-right: 0 !important;
-} 
+}
 
 /* Microblog conversation styling */
 
@@ -660,7 +659,7 @@ p.bookshelf_book a img {
 
 .microblog_user {
 	display: inline-block;
-} 
+}
 
 img.microblog_avatar {
 	max-height: 60px !important;
@@ -718,11 +717,11 @@ img.microblog_avatar {
 		padding-left: 8%;
 		padding-right: 8%;
 	}
-	
+
 	#main-nav {
 		max-width: 100%;
 	}
-	
+
 	h1, h2, h3, hr,
 	section > p,
 	section > footer,
@@ -789,14 +788,14 @@ img.microblog_avatar {
 	table {
 		width: 85%;
 	}
-	
+
 	.content.page img {
 		max-width: 100%;
 	}
 }
 
-@media screen and (max-width: 800px) { 
-	html { 
+@media screen and (max-width: 800px) {
+	html {
 		font-size: 13px;
 	}
 }
@@ -815,5 +814,5 @@ img.microblog_avatar {
 	display: flex;
 	height: auto;
 	max-width: 100%;
-	} 
+	}
 }
