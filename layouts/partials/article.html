@@ -2,11 +2,6 @@
 	<div class="article-meta">
 		<span class="pubdate">Published on <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05.000-07:00" }}' itemprop="datePublished">{{ .Date.Format "Jan 2, 2006" }}</time>
 		</span>
-		<span class="permalink"><a href="{{ .RelPermalink }}">  [Permalink]</a></span><br />
-		{{ if .Title }}
-			{{ $readTime := .ReadingTime }}
-			<span class="read-time">Reading time: {{ .ReadingTime }} {{ cond (eq $readTime 1) "minute" "minutes"}}</span><br />
-		{{ end }}
 		{{ $Site := .Site }}
 		{{ if .Params.categories }}
 			<span class="catlist">Posted in: </span>
