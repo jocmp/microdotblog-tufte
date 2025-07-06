@@ -15,7 +15,7 @@
 		<link rel="EditURI" type="application/rsd+xml" href="{{ "rsd.xml" | absURL }}" />
 	{{ end -}}
 
-	<link rel="me" href="https://micro.blog/{{ .Site.Author.username }}" />
+	<link rel="me" href="https://micro.blog/{{ .Site.Params.Author.username }}" />
 	{{ with .Site.Params.twitter_username }}
 		<link rel="me" href="https://twitter.com/{{ . }}" />
 	{{ end }}
@@ -31,7 +31,7 @@
 	<link rel="microsub" href="https://micro.blog/microsub" />
 	<link rel="webmention" href="https://micro.blog/webmention" />
 	<link rel="subscribe" href="https://micro.blog/users/follow" />
-	<link rel="shortcut icon" href="https://micro.blog/{{ .Site.Author.username }}/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://micro.blog/{{ .Site.Params.Author.username }}/favicon.png" type="image/x-icon" />
 	<link rel="stylesheet" href="{{ "css/style.css" | absURL }}?{{ .Site.Params.theme_seconds }}">
 	<link rel="stylesheet" type="text/css" href="{{ "custom.css" | relURL }}?{{ .Site.Params.theme_seconds }}" />
 	{{ range .Site.Params.plugins_css }}
