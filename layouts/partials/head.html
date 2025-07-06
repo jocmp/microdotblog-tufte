@@ -32,6 +32,10 @@
 	<link rel="webmention" href="https://micro.blog/webmention" />
 	<link rel="subscribe" href="https://micro.blog/users/follow" />
 	<link rel="shortcut icon" href="https://micro.blog/{{ .Site.Params.Author.username }}/favicon.png" type="image/x-icon" />
+	<link rel="preload" href="{{ "css/fonts/et-book-roman-line-figures.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="{{ "css/fonts/et-book-display-italic-old-style-figures.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="{{ "css/fonts/et-book-bold-line-figures.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="{{ "css/fonts/et-book-roman-old-style-figures.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
 	<link rel="stylesheet" href="{{ "css/style.css" | absURL }}?{{ .Site.Params.theme_seconds }}">
 	<link rel="stylesheet" type="text/css" href="{{ "custom.css" | relURL }}?{{ .Site.Params.theme_seconds }}" />
 	{{ range .Site.Params.plugins_css }}
@@ -41,3 +45,4 @@
 		{{ partial $filename $ }}
 	{{ end }}
 </head>
+
