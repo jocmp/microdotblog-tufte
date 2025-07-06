@@ -60,7 +60,7 @@
 	},
 	"taxonomies": {
 		"category": "categories"
-	},	
+	},
 	"rssLimit": 25,
 	"uglyURLs": false,
 	"blackfriday": {
@@ -70,7 +70,7 @@
 	"languageCode": "[LANGUAGE]",
 	"paginate": 10,
 	"params": {
-		"description": "enter your description here",
+		"description": "",
 		"itunes_description": "[ITUNES_DESCRIPTION]",
 		"itunes_category": "[ITUNES_CATEGORY]",
 		"itunes_subcategory": "[ITUNES_SUBCATEGORY]",
@@ -88,7 +88,7 @@
 		"plugins_css": [],
 		"plugins_js": [],
 		"plugins_html": [],
-		"subtitle": "enter your subtitle here",
+		"subtitle": "",
 		"ogimage": "https://micro.blog/[USERNAME]/avatar.jpg"
 	}
 }
