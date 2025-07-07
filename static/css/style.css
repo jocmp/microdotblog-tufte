@@ -183,6 +183,7 @@ a.article-category-link {
 
 article {
   padding: 2rem 0rem;
+  max-width: 800px;
 }
 
 .archive-category {
