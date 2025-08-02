@@ -4,7 +4,7 @@
 		{ .Site.Title | jsonify
 		}
 	},
-	"icon": "{{ .Site.Params.Author.avatar }}",
+	"icon": "{{ .Site.Author.avatar }}",
 	"home_page_url": "{{ .Site.BaseURL }}",
 	"feed_url": "{{ .Site.BaseURL }}/index.json",
 	"items": [
