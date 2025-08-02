@@ -88,7 +88,7 @@ p.subtitle {
 }
 
 nav#page-nav a,
-span {
+nav#page-nav span {
   font-size: 1.3rem;
 }
 
@@ -623,7 +623,8 @@ h3 > code {
   font-size: 1rem;
 }
 
-pre > code {
+pre > code,
+pre > span {
   font-size: 0.9rem;
   width: 52.5%;
   margin-left: 2.5%;
