@@ -263,7 +263,7 @@ video,
 audio {
   display: flex;
   height: auto;
-  max-width: 55%;
+  max-width: 100%;
 }
 
 /* Newthought element styling
